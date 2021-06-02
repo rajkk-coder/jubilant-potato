@@ -1,6 +1,11 @@
-include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main(){
-	printf("This is my new github project version 0.1");
+	int x=rand();
+	if(x)
+		printf("Sreyansh is good boy!!!");
+	else
+		printf("Lets kill Sreyansh");
 	
 	return 0;
 }
